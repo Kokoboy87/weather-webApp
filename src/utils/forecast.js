@@ -13,7 +13,7 @@ const forecast = (latitude, longitude, callback) => {
 
 			callback(
 				undefined,
-				`Weather condition '${current.weather_descriptions}'. It is currently '${current.temperature}' celsius out, It feels like '${current.feelslike}' celsius. The humidity is at '${current.humidity}%'. Winds '${current.wind_speed}' miles per hour, with '${current.wind_dir}' wind directions.`
+				`Weather condition '${current.weather_descriptions}'. It is currently '${current.temperature}' celsius out, It feels like '${current.feelslike}' celsius. The humidity is at '${current.humidity}%'. Winds '${current.wind_speed}' miles per hour, with '${current.wind_dir}' wind direction.`
 			);
 		}
 	});
